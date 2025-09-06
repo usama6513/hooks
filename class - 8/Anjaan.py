@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from agents import Agent, Runner, AsyncOpenAI, OpenAIChatCompletionsModel, set_tracing_disabled, function_tool, RunContextWrapper
 
 
-gemini_api_key= "AIzaSyBWGYNREjwmSgTsJXeEB_Cucs28CGb1gUc"
+gemini_api_key= "your api key"
 
 # Tracing disabled
 set_tracing_disabled(disabled=True)
@@ -47,3 +47,4 @@ async def main():
     print(f"\n\nOutput: {output.final_output}\n\n")
     
 asyncio.run(main())
+
