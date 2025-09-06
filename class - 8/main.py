@@ -4,7 +4,7 @@ import random
 from typing import Any
 from agents import Agent, RunContextWrapper, RunHooks, Runner, Tool, Usage, AsyncOpenAI, OpenAIChatCompletionsModel, set_default_openai_client, set_tracing_disabled
 
-gemini_api_key = "AIzaSyBWGYNREjwmSgTsJXeEB_Cucs28CGb1gUc"
+gemini_api_key = "your api key"
 
 #Reference: https://ai.google.dev/gemini-api/docs/openai
 external_client = AsyncOpenAI(
